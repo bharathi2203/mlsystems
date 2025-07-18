@@ -1,0 +1,14 @@
+# Core dependencies for kernel testing framework
+torch>=1.12.0
+numpy>=1.20.0
+
+# Triton for GPU kernel development (Linux/CUDA only)
+triton>=2.0.0; platform_system=="Linux"
+
+# Testing framework
+pytest>=6.0.0
+
+# Optional: For extended functionality
+# matplotlib>=3.5.0  # For plotting performance results
+# jupyter>=1.0.0     # For interactive testing notebooks
+# pandas>=1.4.0      # For data analysis and reporting 
