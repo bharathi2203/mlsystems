@@ -1,6 +1,4 @@
-# Systems / ML Programming Portfolio/Journal
-
-Stuff I'm currently exploring.
+Stuff I learned, stuff I'm learning, and stuff I want to learn.
 
 ## Repository Structure
 
@@ -14,12 +12,8 @@ GPU kernels organized (roughly) by functionality:
 - **specialized/**: Flash Attention, sparse matrices, advanced techniques
 
 ### [`platforms/`](./platforms/) - Build Systems & Utilities
-Platform-specific build configurations and common utilities:
-- **cuda/**: NVIDIA CUDA development environment
-- **metal/**: Apple Metal Performance Shaders
-- **triton/**: OpenAI Triton kernel development
 
-### [`projects/`](./projects/) - Complete Applications
+### [`projects/`](./projects/) 
 - **ray_tracer/**: Multi-platform ray tracing engine
 
 ### [`training/`](./training/) - Distributed Training & Optimization
